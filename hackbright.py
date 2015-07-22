@@ -1,5 +1,4 @@
 """Hackbright Project Tracker.
-
 A front-end for a database that allows users to work with students, class
 projects, and the grades students receive in class projects.
 """
@@ -26,7 +25,6 @@ def get_student_by_github(github):
 
 def make_new_student(first_name, last_name, github):
     """Add a new student and print confirmation.
-
     Given a first name, last name, and GitHub account, add student to the
     database and print a confirmation message.
     """
@@ -78,7 +76,6 @@ def assign_grade(github, title, grade):
 
 def handle_input():
     """Main loop.
-
     Repeatedly prompt for commands, performing them, until 'quit' is received as a
     command."""
 
